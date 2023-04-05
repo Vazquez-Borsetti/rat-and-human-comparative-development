@@ -1,5 +1,6 @@
 ## Divergent pattern of development in rats and humans.
-This website aims to provide a concise overview of the comparative development of rats and humans, with a focus on key similarities and differences in fetal, perinatal and postnatal development.
+To assist researchers in determining the optimal age of animal models throughout development, this website aims to provide a comprehensive overview of the similarities and differences in the developmental trajectory of rats and humans, including embryonic, fetal, perinatal, and postnatal periods. By elucidating key developmental events and milestones, this resource can inform experimental design and aid in the interpretation of research findings.
+
 
 
 
