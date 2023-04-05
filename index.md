@@ -1,4 +1,4 @@
-## Divergent patern of development in rats and humans
+## Divergent patern of development in rats and humans.
 This website aims to provide a concise overview of the comparative development of rats and humans, with a focus on key similarities and differences in fetal, perinatal and postnatal development.
 
 
