@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Divergent patern of development in rats and humans
+This website aims to provide a concise overview of the comparative development of rats and humans, with a focus on key similarities and differences in fetal, perinatal and postnatal development.
+
+
 
 You can use the [editor on GitHub](https://github.com/Vazquez-Borsetti/rat-and-human-comparative-development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
