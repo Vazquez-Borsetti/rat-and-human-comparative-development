@@ -3,6 +3,6 @@ To assist researchers in determining the optimal age of animal models throughout
 
 Proof of concept graph as this page is under development (no pun intended).
 
-{% include graph1.html %}
+{% include grafico1.html %}
 
 if the information 
