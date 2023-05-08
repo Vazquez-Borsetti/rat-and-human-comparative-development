@@ -5,6 +5,6 @@ Proof of concept graph as this page is under development (no pun intended).
 
 {% include grafico1.html %}
 view  in a new window
-<a href="https://vazquez-borsetti.github.io/rat-and-human-comparative-development/grafico1.html">Texto del enlace</a>
+<a href="https://vazquez-borsetti.github.io/rat-and-human-comparative-development/grafico1.html">view the graph in a new window</a>
 
 if the information 
