@@ -3,6 +3,8 @@ To assist researchers in determining the optimal age of animal models throughout
 
 {% include grafico1.html %}
 
+<a href="https://vazquez-borsetti.github.io/rat-and-human-comparative-development/grafico1.html">View the graph on a new window</a>
+
 Vertical and horizontal black lines indicate the birth of each species.
 
 ### How to interpret this graph?
@@ -14,7 +16,7 @@ The red and green lines encompass 90% (95% to 5% quantiles) of developmental mil
 The first thing to consider is that the patterns of development diverge, thus there is not a univocal relationship between the age of one species and the other. The best bet is to consider which are the most important milestones that could affect your model and select the ages based on that criterion. For example, if you work with perinatal asphyxia the birth may play an important role in the physiopathology of the process that you are studying.
 You can also use different ages, inside reasonable margins as proposed in this analysis, and validate your model based on the similarities with patients’ pathophysiology. 
 
-<a href="https://vazquez-borsetti.github.io/rat-and-human-comparative-development/grafico1.html">View the graph on a new window</a>
+
 
 If the information provided by this website was helpful for your research please consider to cite:
 
