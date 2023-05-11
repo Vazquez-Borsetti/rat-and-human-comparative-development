@@ -16,8 +16,6 @@ The red and green lines encompass 90% (95% to 5% quantiles) of developmental mil
 The first thing to consider is that the patterns of development diverge, thus there is not a univocal relationship between the age of one species and the other. The best bet is to consider which are the most important milestones that could affect your model and select the ages based on that criterion. For example, if you work with perinatal asphyxia the birth may play an important role in the physiopathology of the process that you are studying.
 You can also use different ages, inside reasonable margins as proposed in this analysis, and validate your model based on the similarities with patients’ pathophysiology. 
 
-
-
 If the information provided by this website was helpful for your research please consider to cite:
 
 Divergent pattern of development in rats and humans.
