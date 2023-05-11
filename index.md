@@ -9,7 +9,7 @@ Vertical and horizontal black lines indicate the birth of each species.
 
 ### How to interpret this graph?
 
-The red and green lines encompass 90% (95% to 5% quantiles) of developmental milestones.  These limits were obtained by fitting the data to quantile regressions that are  robust estimators if the sample is representative and there are no considerable deviations in the pattern of development ((<a href="https://doi.org/10.1101/2023.04.11.536227">see</a>)).
+The red and green lines encompass 90% (95% to 5% quantiles) of developmental milestones.  These limits were obtained by fitting the data to quantile regressions. Robust population estimators can be obtained with this method, as long as the sample is representative of the population (<a href="https://doi.org/10.1101/2023.04.11.536227">see</a>).
 
 ### How to choose your model?
 
