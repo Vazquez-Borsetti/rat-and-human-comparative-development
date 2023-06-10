@@ -35,5 +35,5 @@ Ortiz M, Loidl F, Vázquez-Borsetti P. WIREs Mech Dis. 2022 Sep;14(5):e1568. Epu
 
 https://doi.org/10.1002/wsbm.1568
 
-<img title="a title" alt="Alt text" src="/scheme.jpg">
+<img title="Scheme"  src="https://raw.githubusercontent.com/Vazquez-Borsetti/rat-and-human-comparative-development/gh-pages/scheme.jpg">
     
