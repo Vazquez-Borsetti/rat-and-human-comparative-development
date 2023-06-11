@@ -1,8 +1,9 @@
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
+image: scheme.jpg
 og_image: ./scheme.jpg
 
 
-image: scheme.jpg
+
 
