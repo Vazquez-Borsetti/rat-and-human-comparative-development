@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
-image: /scheme.jpg
+image: scheme.jpg
 
