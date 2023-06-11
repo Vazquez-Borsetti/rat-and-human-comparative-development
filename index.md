@@ -36,4 +36,4 @@ Ortiz M, Loidl F, Vázquez-Borsetti P. WIREs Mech Dis. 2022 Sep;14(5):e1568. Epu
 
 ![plot](./scheme.jpg "scheme of rat and human comparative development")
 
-    
+<meta property="og:image" content="https://vazquez-borsetti.github.io/rat-and-human-comparative-development/scheme.jpg" />
