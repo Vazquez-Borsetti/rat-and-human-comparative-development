@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
-image: https://vazquez-borsetti.github.io/rat-and-human-comparative-development/scheme.jpg
+image: /scheme.jpg
 
