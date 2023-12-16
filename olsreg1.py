@@ -7,22 +7,19 @@ Created on Wed Sep 28 12:22:59 2022
 
 from __future__ import print_function
 import numpy as np
-from scipy import stats
+
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
-from statsmodels.sandbox.regression.predstd import wls_prediction_std
-from statsmodels.iolib.table import (SimpleTable, default_txt_fmt)
-import pandas as pd
+
 import seaborn as sns
 from nonlinearreg import func1
 
-
 import statsmodels.formula.api as smf
 
-import numpy as np
+
 
 import pandas
-
+from statsmodels.sandbox.stats.runs import runstest_1samp 
 def func3(x):
      return np.log(x ) 
 
@@ -31,13 +28,15 @@ def nlrsm(data,name,a,b):
     formula = "yData ~ func1(xData,a,b)"
     mod = smf.ols(formula , data=df)
     
-    res = mod.fit()
-    
+    result = mod.fit()
+    resid = result.resid
+    z,p=runstest_1samp(resid)#correction=False
     #print(res.summary())
     file_object = open('statsnl.txt', 'a')
-    file_object.write(name)
-    file_object.write(str(res.summary()))
-    
+    file_object.write(name+ '\n')
+    file_object.write(str(result.summary())+ '\n')
+    file_object.write('runtest_NLR(z-score,p):'+ '\n')
+    file_object.write(str((z,p))+ '\n')
     file_object.close()
 
 def ols(data,a,b, name,colors='b'):
@@ -62,14 +61,19 @@ def ols(data,a,b, name,colors='b'):
     
     x=func1(xData,a,b)
     result2 = sm.OLS(yData,x).fit()
+    
+  
     #rint(result2.summary())
     sns.residplot(x=x,y=yData, lowess=True, color=colors,label=name)
     #print(result.summary())
     plt.legend(title="DB                     ", loc="lower left")
     figsupl2.savefig('fig supl 2.tif', format='tif', dpi=450)
     file_object = open('statsolslr.txt', 'a')
-    file_object.write(name)
-    file_object.write(str(model1.summary()))
+    file_object.write(name + '\n')
+    file_object.write(str(model1.summary())+ '\n')
+    file_object.write('runtest_LR(z-score,p):')
+    file_object.write(str(runstest_1samp(residl, )[:])+'\n')#correction=False
+    file_object.close()
     plt.show()
 def wls(data):
     xData,yData= data[:,0],data[:,1]
@@ -80,4 +84,19 @@ def wls(data):
     wls = sm.WLS(yData, exog, weights)
     results = wls.fit(cov_type="fixed scale")
     print(results.summary())
+def nlrsm_alt(data,name,a,b):
+        df = pandas.DataFrame(data, columns=['xData','yData'])
+        formula = "yData ~ func2(xData,a,b)"
+        mod = smf.ols(formula , data=df)
+        
+        result = mod.fit()
+        resid = result.resid
+        z,p=runstest_1samp(resid)#correction=False
+        #print(res.summary())
+        file_object = open('statsnl_alt.txt', 'a')
+        file_object.write(name+ '\n')
+        file_object.write(str(result.summary())+ '\n')
+        file_object.write('runtest_NLR_alt(z-score,p):'+ '\n')
+        file_object.write(str((z,p))+ '\n')
+        file_object.close()
 
