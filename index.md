@@ -25,7 +25,7 @@ If the information provided on this website was helpful for your research, pleas
 Divergent pattern of development in rats and humans.
 
 Wanda campos, Tomas Iorri, Antonella Presti, Rafael Grimson, Pablo Vázquez-Borsetti
- (<a href="[https://doi.org/10.1002/wsbm.1568](https://doi.org/10.1007/s12640-023-00683-y)"[>https://doi.org/10.1002/wsbm.1568](https://doi.org/10.1007/s12640-023-00683-y)</a>)
+ (<a href="https://doi.org/10.1007/s12640-023-00683-y">https://doi.org/10.1007/s12640-023-00683-y</a>)
 
 This problem has also been discussed in another publication:
 
