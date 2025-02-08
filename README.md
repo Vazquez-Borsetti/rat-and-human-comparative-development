@@ -6,3 +6,7 @@ Now the preprint of the manuscript is available at: https://doi.org/10.1101/2023
 The database will be publicly available and free to use after peer-review and acceptance of the manuscript.
 Also we developed an interactive dashboard with plotly
 https://vazquez-borsetti.github.io/rat-and-human-comparative-development/
+## About Me  
+
+Explore more of my projects on my website:  
+[👉 vazquez-borsetti.github.io](https://vazquez-borsetti.github.io/)
